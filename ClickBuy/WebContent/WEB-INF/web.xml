@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DB</servlet-name>
+    <servlet-class>DB</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImageUpload</servlet-name>
+    <servlet-class>ImageUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserProducts</servlet-name>
+    <servlet-class>UserProducts</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EmailUtility</servlet-name>
+    <servlet-class>EmailUtility</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EmailSendingServlet</servlet-name>
+    <servlet-class>EmailSendingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Mcart</servlet-name>
+    <servlet-class>Mcart</servlet-class>
+  </servlet>
+
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DB</servlet-name>
+    <url-pattern>/DB</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageUpload</servlet-name>
+    <url-pattern>/ImageUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserProducts</servlet-name>
+    <url-pattern>/UserProducts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmailUtility</servlet-name>
+    <url-pattern>/EmailUtility</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmailSendingServlet</servlet-name>
+    <url-pattern>/EmailSendingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Mcart</servlet-name>
+    <url-pattern>/Mcart</url-pattern>
+  </servlet-mapping>
+ 
+  
+ <context-param>
+        <param-name>host</param-name>
+        <param-value>smtp.gmail.com</param-value>
+    </context-param>
+ 
+    <context-param>
+        <param-name>port</param-name>
+        <param-value>587</param-value>
+    </context-param>
+ 
+    <context-param>
+        <param-name>user</param-name>
+        <param-value>clickbuy9</param-value>
+    </context-param>
+ 
+    <context-param>
+        <param-name>pass</param-name>
+        <param-value>clickbuy66b7b4</param-value>
+    </context-param>
+ 
+    
+ 
+  <welcome-file-list>
+    <welcome-file>ClickBuy.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

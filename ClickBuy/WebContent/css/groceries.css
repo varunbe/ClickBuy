@@ -1,0 +1,16 @@
+.products {}
+
+.products ul
+{ 
+	list-style-type: none;
+}
+
+.products ul li
+{ 
+	position:relative; padding:-1px; border:solid 1px #dedede; float:left; width:250px; margin-right:25px;margin-left:30px; height:250px; overflow:hidden; margin-bottom:10px;
+}
+
+.products ul li.last
+{ 
+	margin-right:0; 
+}
